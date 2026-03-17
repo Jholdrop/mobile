@@ -54,3 +54,30 @@ aprendemos também a criar pasta e arquivos pelo terminal usando o comando mkdir
 - adicionar ADB e o Emulator as Variáveis de Ambiente
 - Criação da Imagem do Emulador - via sdkmanager
 - Build do Emulador - via sdkmanager
+### Criação de Projetos e Códigos da Linha de Comando
+
+- criação de projetos
+    - flutter create nome_do_app
+        - flags(parâmetros):
+            - --empty : Cria um aplicativo "vazio"(hello World!)
+            - --platforms : permite a seleção de uma plataforma de desenvolvimento
+                - ex: --platforms=android (a criação do projeto será somente para a plataforma android)
+    - exemplo de criação de uma aplicativo android vazio
+        - flutter create nome_do_app --empty --platforms=android
+        - obs: nome do aplicativo: todas as letras minúsculas, separação de palavras com "_";
+    - flutter doctor
+        - permite correção de pequenos problemas no flutter e identificação dos parâmetros funcionais em relação as plataforma de desenvolvimento
+        - sempre rodar o flutter doctor no começo do desenvolvimento
+    - flutter clean
+        - limpa cache do build(apaga o apk anterior)
+    - flutter run -v 
+        - build do app (apk)
+
+- gerenciamento de dependências do PubSpec()
+    - instalação
+        - flutter pub add nome_dependencia
+    - baixar e instalar dependências projetadas 
+        - flutter pub get
+    - outros comando do flutter pub(dependências)
+        - flutter pub outdated (verifica se as dependências estão desatualizadas)
+        - flutter pub upgrade (atualiza as dependências do flutter pub)
