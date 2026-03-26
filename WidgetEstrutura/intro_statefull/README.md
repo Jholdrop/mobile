@@ -111,4 +111,16 @@
 
 - StateFull:
     Janelas que permitem Mudança de Estado(setState)
-    obs: Permite Adicionar elemetos a Janela, Como novas imagens, Novos Textos entre outros.
+    obs: Permite Adicionar elemetos a Janela, Como novas Imagens, Novos Textos entre outros.
+
+
+- Comparativo Stateless vs  Stateful
+
+|Caracteristica|Stateless|Stateful|
+|-|-|-|
+|Mutabilidade| Não | Sim |
+|Uso Ideal | Layouts Fixo e Exibição de dados Estáticos | Interações do Usuários, Animações e Dados Dinâmicos|
+|Armazenamento de Estado| Não | Sim |
+| Método Principal | build() | build()+setState() |
+
+
