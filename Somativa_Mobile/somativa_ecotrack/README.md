@@ -16,6 +16,9 @@ Aplicativo Flutter (nível iniciante) para controle de hábitos sustentáveis co
 - `ListView`
 - `GridView`
 
+
+## Prototipo (link figma)
+https://www.figma.com/design/3hPKy3N45exDjzIRmAXehO/Somativa?node-id=0-1&p=f&t=XTFFjLtmcxtYZQTE-0
 ## Estrutura
 ```text
 lib/
