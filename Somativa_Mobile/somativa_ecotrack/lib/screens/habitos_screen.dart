@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../models/habit.dart';
-import '../providers/eco_track_provider.dart';
+import '../models/habito.dart';
+import '../providers/eco_track_provedor.dart';
 
 /// Tela de Hábitos Sustentáveis com TabBarView
 /// 

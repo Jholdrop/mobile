@@ -1,8 +1,8 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/eco_track_provider.dart';
-import '../widgets/dashboard_info_card.dart';
+import '../providers/eco_track_provedor.dart';
+import '../widgets/card_info_painel.dart';
 
 /// Tela de dashboard com resumo das acoes sustentaveis.
 class DashboardScreen extends StatelessWidget {
@@ -165,3 +165,4 @@ class DashboardScreen extends StatelessWidget {
     );
   }
 }
+

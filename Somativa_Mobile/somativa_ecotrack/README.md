@@ -39,10 +39,6 @@ flutter run (terminal)
 - `docs/Prototipos_Media_Fidelidade_EcoTrack.md`
 
 
-
-# Documento de Requisitos - EcoTrack
-## Baseado em ISO/IEC/IEEE 29148 (versao simplificada)
-
 Data: 28/04/2026  
 Projeto: SOMATIVA_ECOTRACK
 

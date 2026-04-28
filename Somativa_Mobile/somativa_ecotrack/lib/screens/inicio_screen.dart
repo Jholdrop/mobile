@@ -1,10 +1,10 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/eco_track_provider.dart';
-import 'dashboard_screen.dart';
-import 'habits_screen.dart';
-import 'welcome_screen.dart';
+import '../providers/eco_track_provedor.dart';
+import 'painel_screen.dart';
+import 'habitos_screen.dart';
+import 'bemvindo_screen.dart';
 
 /// Tela principal com 3 paginas:
 /// Home, Habitos e Dashboard.
@@ -176,3 +176,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+

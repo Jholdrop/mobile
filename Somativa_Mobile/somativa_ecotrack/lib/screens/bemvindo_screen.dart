@@ -1,7 +1,7 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/eco_track_provider.dart';
+import '../providers/eco_track_provedor.dart';
 
 /// Pagina Home de apresentacao do aplicativo (sem login).
 class WelcomeScreen extends StatelessWidget {
@@ -89,3 +89,4 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 }
+

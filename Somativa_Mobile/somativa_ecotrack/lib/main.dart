@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'providers/eco_track_provider.dart';
-import 'screens/home_screen.dart';
+import 'providers/eco_track_provedor.dart';
+import 'screens/inicio_screen.dart';
 
 void main() {
   runApp(const EcoTrackApp());
@@ -106,3 +106,4 @@ class EcoTrackApp extends StatelessWidget {
     );
   }
 }
+

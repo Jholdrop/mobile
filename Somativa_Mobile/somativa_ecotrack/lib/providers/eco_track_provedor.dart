@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/habit.dart';
+import '../models/habito.dart';
 
 /// Provider para gerenciamento de estado global da aplicação EcoTrack
 /// 
@@ -354,3 +354,4 @@ class EcoTrackProvider extends ChangeNotifier {
     return _completedHabits.length * 0.5 * 7; // Por semana
   }
 }
+
