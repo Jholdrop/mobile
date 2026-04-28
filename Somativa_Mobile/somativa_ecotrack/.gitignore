@@ -1,0 +1,54 @@
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# Build e cobertura
+build/
+coverage/
+**/doc/api/
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Simbolos/obfuscation
+app.*.symbols
+app.*.map.json
